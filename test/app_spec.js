@@ -19,7 +19,7 @@ describe("create app",function() {
     describe("listen port",function() {
 
         before(function(done) {
-           var server = app.listen(7000, done);
+            var server = app.listen(7000, done);
         });
 
         it("/foo should responds 404", function(done) {
